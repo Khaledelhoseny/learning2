@@ -1,0 +1,256 @@
+/* start section nav  */
+.header{
+    background-image: linear-gradient(to right , #345d3a9c , #5b9989cc) , url(../img/glass.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.nav-link{
+    margin: 22px;
+    color: white !important;
+    font-size: 24px;
+    font-family: cursive;
+
+}
+.header .container {
+   max-width: 960px;
+}
+.btn-success{
+    background-color:#ed7c6a !important ;
+    border-color: #ed7c6a !important ;
+}
+.btn-success:hover {
+    background-color: #b44b3b !important;
+}
+.btn-success:focus{
+    box-shadow: 0px 0px 10px black !important;
+
+}
+
+
+
+.parg1{
+    font-size: 30px;
+    font-family: cursive;
+    color: white;
+    margin-top: 5%;
+}
+
+
+.search-more{
+    border-radius: 20px;
+    margin-left: -138px;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    background-color: #074d4c;
+}
+.search-more:hover {
+    background-color: #053837 ;
+}
+
+.search-more:focus {
+    box-shadow: 0px 0px 10px black;
+}
+
+.form-control {
+    display: inline;  
+     width: 70% !important;
+     border-radius: 25px;
+     padding-top: 5px;
+
+}
+
+.facebook {
+    /* margin-top: 13px; */
+    display: inline;
+    font-size: 25px;
+    color: white;
+    font-family: cursive;
+    margin-left: 12px;
+
+    
+}
+
+  .fa-facebook-square {
+    color: white;
+    font-size: 37px;
+}
+
+.fa-twitter-square {
+    color: white;
+    font-size: 37px;
+}
+.fa-whatsapp-square{
+    color: white;
+    font-size: 37px;
+
+}
+
+.fa-youtube-square{
+    color: white;
+    font-size: 37px;
+
+}
+
+
+
+
+.links {
+    margin-top: 7%;
+    display: flex;
+    
+}
+
+
+@media only screen and (max-width:768px){
+
+    .header{
+        height: auto;
+        
+    }
+
+}
+
+    
+/* end section nav   */
+
+/* start section reading  */
+.reading {
+    margin-top: 7%;
+    margin-bottom: 50px;
+    
+}
+
+.parg2{
+    margin-top: 10%;
+    color: #635e5e;
+    font-family: cursive;
+}
+
+.pic1{
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: -2%;
+}
+.pic2{
+    margin-left: 20px;
+    margin-bottom: -20px;
+    z-index: 999999;
+    display: block;
+    margin: 0 auto;
+    width: 72%;
+
+}
+
+.pic3{
+    z-index: -1;
+    position: absolute;
+    left: -2%;
+    bottom: 4%;
+    width: 122px;
+}
+
+/* end section reading  */
+
+/* start section system features  */
+.system {
+    background-color: #8eb6d9;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.features{
+    background-color: white;
+    height: 350px;
+    padding: 5%;
+    border-radius: 20px;
+
+
+}
+
+.system h2 {
+    margin-bottom: 4%;
+    font-family: cursive;
+}
+
+@media only screen and (max-width:768px){
+
+    .system{
+        height: auto;
+        
+    }
+    .features{
+        margin-bottom: 2%;
+    }
+
+
+}
+
+/* end section system features  */
+
+/* star section goals  */
+
+.parg3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+} 
+.goals h2 {
+    font-family: cursive;
+    margin: 4% 0px;
+}
+
+ /* end section goals  */
+
+ /* start section operational system */
+
+
+  /* End section operational system */
+
+
+  /* start section footer */
+
+.footer {
+    background-color: #0f7b65;
+    height: 485px;
+    border-radius: 220px 220px 0px 0px ; 
+    
+    padding: 6%;
+    
+
+}
+.footer h2 , .parg {
+    color: white !important;
+    font-family: initial;
+}
+.footer p {
+    font-size: 20px;
+}
+.footer a {
+    display: block;
+    margin: 18px;
+    color: white;
+
+}
+.khaled {
+    color: #f48e7f !important ;
+    font-size: 29px;
+}
+
+.footer .madrsty {
+    margin-top: 2%;
+}
+@media  only screen and (max-width:768px)  {
+    .footer{
+        height: auto;
+        padding-top: 62px;
+    }
+    
+}
+
+/* end section footer */
+
